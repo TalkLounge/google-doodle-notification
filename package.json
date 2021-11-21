@@ -1,0 +1,26 @@
+{
+  "name": "google-doodle-notification",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "Send Email Notifications for Google Doodles",
+  "author": "TalkLounge <talklounge@yahoo.de> (https://github.com/TalkLounge)",
+  "repository": "github:TalkLounge/google-doodle-notification",
+  "homepage": "https://github.com/TalkLounge/google-doodle-notification#readme",
+  "bugs": "https://github.com/TalkLounge/google-doodle-notification/issues",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "google",
+    "doodle",
+    "notification",
+    "search",
+    "filter",
+    "information"
+  ]
+}
