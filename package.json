@@ -1,16 +1,19 @@
 {
   "name": "google-doodle-notification",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "src/index.js",
-  "description": "Send Email Notifications for Google Doodles",
+  "description": "Send Email Notification for certain new Google Doodles",
   "author": "TalkLounge <talklounge@yahoo.de> (https://github.com/TalkLounge)",
   "repository": "github:TalkLounge/google-doodle-notification",
   "homepage": "https://github.com/TalkLounge/google-doodle-notification#readme",
   "bugs": "https://github.com/TalkLounge/google-doodle-notification/issues",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
-    "dotenv": "^10.0.0"
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "defaults": "^1.0.4",
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^22.7.1"
   },
   "scripts": {
     "start": "node src/index.js"
@@ -21,6 +24,7 @@
     "notification",
     "search",
     "filter",
-    "information"
+    "information",
+    "type"
   ]
 }
