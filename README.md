@@ -1,7 +1,7 @@
 # Google Doodle Notification
 Send Email Notification for certain new Google Doodles
 
-<img src="doc/screenshot.jpg" width="25%">
+<img src="doc/screenshot.jpg" width="40%">
 
 ## Table of Contents
 - [Google Doodle Notification](#google-doodle-notification)
